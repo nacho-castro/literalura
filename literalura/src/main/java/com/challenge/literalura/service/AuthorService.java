@@ -26,4 +26,8 @@ public class AuthorService {
     public List<Author> getAllAuthors() {
         return authorRepo.findAll();
     }
+
+    public List<Author> getAlive(int year){
+        return authorRepo.findAlive(year);
+    }
 }
