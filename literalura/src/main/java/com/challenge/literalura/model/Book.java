@@ -77,9 +77,9 @@ public class Book {
     public String toString() {
         return "-----LIBRO-----" +
                 "\nTitulo:" + titulo +
-                "\nAutor: " + autor +
+                "\nAutor: " + autor.getNombre() +
                 "\nIdioma: " + idioma +
                 "\nDescargas: " + descargas +
-                "\n------------\n";
+                "\n------------------\n";
     }
 }
